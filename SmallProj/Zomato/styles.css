@@ -235,3 +235,50 @@ nav {
 #explore p {
     font-weight: 300;
 }
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+#features .outing img {
+    height: 320px;
+    width: 265px;
+    border-radius: 8px;
+    display: flex;
+}
+
+
+/* #rooftop span {
+    position: absolute;
+    top: 100%;
+    color: #b53d3d;
+    font-size: 20px;
+} 
+
+#opened span {
+    position: relative;
+    bottom: 8px;
+}
+
+#date span {
+    position: relative;
+    bottom: 8px;
+}
+
+#outing span {
+    position: relative;
+    bottom: 8px;
+}*/
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    gap: 400p;
+}
