@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+        
+        #container:hover {
+            height: 250px;
+            width: 250px;
+            background-color: black;
+            /*transition: all 2s ease-in-out;
+            transition-property: all;
+            transition-duration: 1s;*/
+        }
+        
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin-top: 20px;
+            margin-left: 50px;
+            /*   transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 0.1s;*/
+            transition: all 0.5s linear 0.1s;
+        }
+        
+        .box:hover {
+            width: 100px;
+            background-color: brown;
+            border-radius: 20%;
+            transform: rotate(45deg);
+        }
+        
+        .box:first-child {
+            transition-timing-function: linear;
+        }
+        
+        .box:nth-child(2) {
+            transition-timing-function: ease;
+        }
+        
+        .box:nth-child(3) {
+            transition-timing-function: ease-in;
+        }
+        
+        .box:nth-child(4) {
+            transition-timing-function: ease-in-out;
+        }
+        
+        .box:last-child {
+            transition-timing-function: ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">container</div>
+    <br>
+    <br>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+
+</html>

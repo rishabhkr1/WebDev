@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: rgb(240, 86, 8);
+            font-size: 40px;
+        }
+        
+        p::first-line {
+            color: rgb(37, 249, 5);
+        }
+        
+        p::before {
+            content: url();
+        }
+        
+        p::before {
+            content: "Whatever you want to add ";
+        }
+        
+        p::after {
+            content: " Anything";
+        }
+        
+        input::placeholder {
+            color: rgb(213, 11, 11);
+        }
+        
+        input {
+            color: rgb(92, 11, 213);
+        }
+        
+        p::selection {
+            background-color: rgb(101, 88, 80);
+            color: rgb(234, 8, 8);
+        }
+        
+        li::marker {
+            color: rgb(252, 35, 35);
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. delectus ipsa! Ea eaque sed error autem voluptatem blanditiis ullam saepe? Rerum possimus explicabo tempora fugit beatae vero tempore recusandae.</p>
+
+    <form action="">
+        <input type="text" placeholder="Enter Name">
+    </form>
+
+    <ul type="circle">
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+        <li>Ravi</li>
+    </ul>
+</body>
+
+</html>

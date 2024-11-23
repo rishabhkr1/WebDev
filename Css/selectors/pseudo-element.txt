@@ -1,0 +1,10 @@
+
+    Some of the pseudo element selector
+       ::first-letter
+       ::first-line
+       ::before
+       ::after
+       ::placeholder
+       ::selection
+       ::marker
+    
