@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /* font-style: normal; */
+}
+
+body {
+    width: 100vw;
+    background-color: #efefef;
+}
+
+header {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 20px;
+}
+
+#logo-container {
+    flex-basis: 15%;
+    height: 40px;
+}
+
+#logo-container span {
+    /* padding: 5px; */
+    width: 70%;
+}
+
+#logo-container span>img {
+    width: inherit;
+}
+
+#search-container {
+    flex-basis: 65%;
+    height: 50px;
+    box-shadow: 0px 0px 3px #000000be;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#location {
+    flex-basis: 40%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid;
+}
+
+#location span {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#location span #loc {
+    margin-left: 7px;
+    color: rgb(239, 4, 43);
+}
+
+#location span input {
+    width: 220px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+#input-box {
+    flex-basis: 60%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#input-box #search-icon {
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-box #inp-container input {
+    width: 350px;
+    height: 30px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+}
+
+#reg-container {
+    flex-basis: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#reg-container span a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(78, 72, 72);
+}
+
+#reg-container span a:hover {
+    color: black;
+}
+
+#navigate {
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: end;
+}
+
+#para {
+    width: 430px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#para a {
+    font-size: 14px;
+    text-decoration: none;
+    color: gray;
+}
+
+#para a:hover {
+    color: #f45b74;
+}
+
+#para span {
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+}
+
+#services {
+    height: 100px;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#services article {
+    height: 100%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.images {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images img {
+    height: 40px;
+    width: 40px;
+}
+
+#services article div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#dining .images {
+    background-color: #f1f1f1;
+}
+
+#delivery .images {
+    background-color: #dfdfdf;
+}
+
+#nightlife .images {
+    background-color: #b4deef;
+}
+
+#collection {
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+#explore {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+
+#explore span {
+    position: absolute;
+    right: 100px;
+    top: 296px;
+    color: #f45b74;
+    font-weight: 300;
+}
+
+#explore span svg {
+    padding-top: 4px;
+}
+
+#explore p {
+    font-weight: 300;
+}
